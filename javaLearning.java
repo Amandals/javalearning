@@ -1,14 +1,14 @@
 public class javaLearning{
     //declarando as variaveis
-    private int x;
-    private int y;
+    private static int x;
+    private static int y;
     //construtor
     public javaLearning(int x, int y){
         this.x = x;
         this.y = y;
     } 
     //funções
-    public int soma(int x, int y){
+    public static int soma(){
         return x+y;
     }
 }
